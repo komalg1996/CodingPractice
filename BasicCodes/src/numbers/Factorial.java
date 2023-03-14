@@ -9,11 +9,13 @@ public class Factorial {
 		Scanner sc = new Scanner(System.in);
 		int num=sc.nextInt();
 		int fact=1;
-		fact= factorial(num);
+		//fact= factorial(num);
+		
 		System.out.println("Factorial is:"+fact);
 		
 	}
-
+	
+	//recursion
 	static int factorial(int num) {
 		if(num==0) {
 			return 1;
@@ -21,6 +23,7 @@ public class Factorial {
 			return num*(factorial(num-1));
 		}
 		
+	//without recursion	
 //		int f=1;
 //		for(int i=1;i<=num; i++) {
 //			f=f*i;
