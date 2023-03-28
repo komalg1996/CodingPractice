@@ -16,6 +16,7 @@ public class PalindromeString {
 			ch[i]=ch[ch.length-1-i];
 			ch[ch.length-1-i]=t;
 		}
+
 		str2=new String(ch);
 		if(str2.equals(str1))
 			System.out.println("Palindrome");

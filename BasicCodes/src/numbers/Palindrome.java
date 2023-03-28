@@ -3,12 +3,12 @@ package numbers;
 public class Palindrome {
 
 	public static void main(String[] args) {
-		int num=24542;
+		int num=1234;
 		int rem=0;
 		int sum=0;
 		int temp=num;
 		//string
-		Integer n1=121;
+		Integer n1=1211;
 		String s= n1.toString();
 		System.out.println(s);
 		String reverse = "";
@@ -29,12 +29,13 @@ public class Palindrome {
 			sum=(sum*10)+rem;
 			num=num/10;
 		}
-		if(temp==sum) {
-			System.out.println("Palindrome");
-		}else {
-			System.out.println("Not Palindrome");
-
-		}
+//		if(temp==sum) {
+//			System.out.println("Palindrome");
+//		}else {
+//			System.out.println("Not Palindrome");
+//
+//		}
+		System.out.println("reverse:"+sum);
 	}
 
 }

@@ -3,7 +3,7 @@ package Strings;
 public class DuplicateUsingCount {
 
 	public static void main(String[] args) {
-		String str="new life world";
+		String str="koko got placed";
 		int count;
 		char [] ch=str.toCharArray();
 		for(int i=0;i<ch.length;i++) {
@@ -15,7 +15,7 @@ public class DuplicateUsingCount {
 				}
 			}
 			if(count>1&&ch[i]!='0')
-				System.out.println(ch[i]);
+				System.out.print(ch[i]);
 		}
 			
 	}

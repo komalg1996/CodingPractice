@@ -14,7 +14,7 @@ public class MaxWords {
     }
 	public static void main(String[] args) {
 		MaxWords m = new MaxWords();
-		String[] sentence= {"please wait", "continue to fight", "continue to win"};
+		String[] sentence= {"please wait", "continue to fight", "continue to win komal"};
 		int x = m.mostWordsFound(sentence);
 		System.out.println("Max words in sentence is:"+ x);
 	}

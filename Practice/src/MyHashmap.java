@@ -10,8 +10,8 @@ public class MyHashmap {
 //		System.out.println(h.get(1));;
 		
 		HashSet<Integer> s = new HashSet<Integer>();
-//		System.out.println(s.add(5));
-//		System.out.println(s.add(5));
+		System.out.println(s.add(5));
+		System.out.println(s.add(5));
 		
 		//if 2 obj are equl they have same hashcode
 		String s1="Komu";

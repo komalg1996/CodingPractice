@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class RepetingChars {
 
 	public static void main(String[] args) {
-		String str="aabbccacd";
+		String str="aabbccacdd";
 		HashMap<Character, Integer> h= new HashMap<Character, Integer>();
 		for(int i=0;i<str.length();i++) {
 			if(h.get(str.charAt(i))==null) {
