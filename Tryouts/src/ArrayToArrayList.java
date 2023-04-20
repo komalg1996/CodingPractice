@@ -8,8 +8,11 @@ public class ArrayToArrayList {
 		String[] s= {"komu","pratik","prachi","Shweta"};
 		//1:Arrays.asList
 		ArrayList<String> a=new ArrayList<String>(Arrays.asList(s));
-		a.add("Kartik");
+		//a.add("Kartik");
 		System.out.println(a);
+		
+		int[] arr= {4,6,1,7,9,3};
+		//ArrayList<Integer> larr = new ArrayList<Integer>(Arrays.asList(arr));
 		
 		//2:Collections.addAll();
 		List<String> al=new ArrayList<String>();

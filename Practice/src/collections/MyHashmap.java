@@ -28,7 +28,7 @@ public class MyHashmap {
 
 		System.out.println(map);
 
-		// Set<Employee> s=map.keySet();
+		//Set<Employee> s=map.keySet();
 		// Collection<Integer> l=map.values();
 
 		Iterator<Employee> itr = map.keySet().iterator();

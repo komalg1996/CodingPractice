@@ -28,10 +28,10 @@ public class MiddleInLL {
 			return -1;
 
 		}
-		public static void main(String[] args) {
-			MiddleInLL m= =new MiddleInLL();
-			m.getMiddle();
-		}
+//		public static void main(String[] args) {
+//			MiddleInLL m= =new MiddleInLL();
+//			m.getMiddle();
+//		}
 
 	}
 }

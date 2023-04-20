@@ -20,6 +20,9 @@ public class TryMap {
 		while(itr.hasNext()) {
 			Map.Entry<Student,String > m=(Entry) itr.next();
 			System.out.println(m.getKey().rollNo+"..."+m.getKey().name);
+			
+			System.out.println(m.getKey()+"..."+m.getValue());
+
 		}
 		
 		

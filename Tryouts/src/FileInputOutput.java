@@ -15,7 +15,7 @@ public class FileInputOutput {
 		Scanner sc =new Scanner(f);
 		int count=0;
 		while(sc.hasNext()) {
-			System.out.println(sc.nextLine());
+			System.out.println(sc.next());
 			count++;
 		}
 		System.out.println(count);

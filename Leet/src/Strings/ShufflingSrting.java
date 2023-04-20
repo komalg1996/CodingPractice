@@ -5,17 +5,19 @@ package Strings;
 public class ShufflingSrting {
 
 public String restoreString(String s, int[] indices) {
-	char[] sarr = new char[indices.length];
+	char[]arr=new char[s.length()];
 	for(int i=0;i<indices.length;i++) {
-		sarr[indices[i]]=s.charAt(i);
+		arr[indices[i]]=s.charAt(i);
+		//System.out.println(s.charAt(i));
+		//System.out.println(indices[i]);
 	}
-	return String.valueOf(sarr);
-        
+	return String.valueOf(arr);
+	
     }
 	public static void main(String[] args) {
 		ShufflingSrting r = new ShufflingSrting();
-		int[] indices={0,1,2};
-		System.out.println(r.restoreString("abc", indices ));
+		int[] indices={4,5,6,7,0,2,1,3};
+		System.out.println(r.restoreString("codeleet", indices ));
 		
 	}
 
