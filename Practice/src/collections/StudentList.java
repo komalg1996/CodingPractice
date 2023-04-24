@@ -101,24 +101,36 @@ public class StudentList implements Comparable{
 				
 			}
 		}
-		//System.out.println(l3);
-//		Collections.sort(l3);
-//		System.out.println(l3);
-//		System.out.println(l3.get(0).name);
-//		
-		Collections.sort(l3,new MyComparator2());
 		System.out.println(l3);
+		Collections.sort(l3);
+		System.out.println(l3);
+//		System.out.println(l3.get(0).name);
+		
+//		Collections.sort(l3,new MyComparator2());
+//		System.out.println(l3);
 	}
 
 
 
-	@Override
+//	@Override
+//	public int compareTo(Object o) {
+//		StudentList s1= (StudentList) o;
+//		if(this.rollno>s1.rollno)
+//			return 1;
+//		else if(this.rollno<s1.rollno)
+//			return -1;
+//		else
+//			return 0;
+//	}
+
+
+
 	public int compareTo(Object o) {
 		StudentList s1= (StudentList) o;
 		if(this.marks>s1.marks)
-		return -1;
+		return 1;
 		else if(this.marks<s1.marks)
-			return 1;
+			return -1;
 		else
 		return 0;
 	}
@@ -131,7 +143,7 @@ class MyComparator2 implements Comparator<StudentList>{
 	@Override
 	public int compare(StudentList o1, StudentList o2) {
 		
-		return o1.name.compareTo(o2.name);
+		return o2.name.compareTo(o1.name);
 	}
 
 	

@@ -2,8 +2,8 @@
 public class Anagram2 {
 
 	public static void main(String[] args) {
-		String s1="maryy";
-		String s2="aarmy";
+		String s1="mary";
+		String s2="army";
 		int count=0;
 		if(s1.length()==s2.length()) {
 			for(int i=0;i<s1.length();i++) {

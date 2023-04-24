@@ -11,7 +11,7 @@ import java.util.Set;
 public class Demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		List<Employee1> empList=new ArrayList<Employee1>();
 		
 		empList.add(new Employee1(1, "Komal"));
