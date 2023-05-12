@@ -41,13 +41,15 @@ public class MyHashmap {
 
 			System.out.println(itr1.next());
 		}
-
+		
+		System.out.println("--------using entrySet----------");
 		Iterator itr2 = map.entrySet().iterator();
 		while (itr2.hasNext()) {
 			Map.Entry<Employee,Integer> m=(Entry) itr2.next();
-			System.out.println(m.getKey().name+"..."+m.getValue());
+			System.out.println(m.getKey()+" "+m.getValue());
 		}
-		
+		System.out.println("-------using lambda---------");
+		map.forEach((k,v)->System.out.println(k+" "+v));
 		
 		//new
 		HashMap<Integer, String> hm = new HashMap<Integer, String>();
@@ -61,7 +63,7 @@ public class MyHashmap {
 		
 		TreeMap<Integer, String> tm = new TreeMap<Integer, String>(new MyComparator3());
 		tm.putAll(hm); 	
-		System.out.println(tm);
+	//	System.out.println(tm);
 		
 		
 		

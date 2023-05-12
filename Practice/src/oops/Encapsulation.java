@@ -30,7 +30,6 @@ public class Encapsulation {
 		s1.setId(101);
 		s1.setName("komal");
 		System.out.println(s1.getId()+" "+s1.getName());
-
 	}
 
 }

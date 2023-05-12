@@ -2,7 +2,7 @@
 public class Palindrome {
 
 	public static void main(String[] args) {
-//		int i=12144;
+//		int i=121;
 //		int temp=0,mod=0,sum=0;
 //		temp=i;
 //		while(i>0) {
@@ -18,7 +18,7 @@ public class Palindrome {
 		
 		//for string pali
 		
-		String s="abbaaa";
+		String s="aba";
 		String s2="";
 		for(int i=s.length()-1;i>=0;i--) {
 			s2=s2+s.charAt(i);

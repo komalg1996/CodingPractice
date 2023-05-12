@@ -45,8 +45,8 @@ public class Demo {
 			}
 			}
 		}
-		System.out.println(mergeList);
-		System.out.println(empList.get(3).salary);
+		System.out.println("---->"+mergeList);
+		System.out.println("---->"+empList.get(3).salary);
 		
 		Set<String> s = new HashSet<String>();
 		

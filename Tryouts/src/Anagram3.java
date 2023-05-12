@@ -2,7 +2,7 @@
 public class Anagram3 {
 
 	public static void main(String[] args) {
-		String s1 = "maary";
+		String s1 = "mary";
 		String s2 = "army";
 		int count = 0;
 		

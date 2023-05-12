@@ -11,3 +11,8 @@ public class Try1 {
 	}
 
 }
+class Animal{
+private class Dog{
+	
+}
+}

@@ -6,11 +6,17 @@ class Animal{
 	}
 }
 class Dog extends Animal{
+//	void eat() {
+//		System.out.println("Dog eating");
+//	}
 	void bark() {
 		System.out.println("barking");
 	}
 }
 class Puppy extends Dog{
+	  void bark() {
+		System.out.println("barking slowly");
+	}
 	void play() {
 		System.out.println("playing");
 	}
@@ -35,6 +41,14 @@ public class Inheritance {
 		c.fight();
 
 		Animal a=new Dog();
+		System.out.println("---");
+		a.eat();
+		
+		
+		Dog d=new Puppy();
+		//d.play();
+		d.eat();
+		d.bark();
 		
 	}
 

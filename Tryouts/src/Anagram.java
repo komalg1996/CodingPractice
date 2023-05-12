@@ -9,7 +9,7 @@ public class Anagram {
 			for(int i=0;i<s1.length();i++) {
 				for(int j=0;j<s2.length();j++) {
 					if(s1.charAt(i)==s2.charAt(j)) {
-					//s2=s2.replaceFirst(""+s1.charAt(i), "");
+					s2=s2.replaceFirst(""+s1.charAt(i), "");
 						count++;
 						//System.out.println(s2);
 					}
