@@ -13,7 +13,6 @@ public abstract class Abst { //may or maynot have abstract method
 }
 class MyAbst extends Abst {
 
-	@Override
 	int add() {
 		// TODO Auto-generated method stub
 		return 0;
